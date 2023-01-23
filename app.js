@@ -1,6 +1,7 @@
 const express = require('express');
 const path = require('path');
 const app = express();
+app.use(express.static(__dirname + '/public'));
 
 app.engine('html', require('ejs').renderFile);
 app.set('view engine', 'html');
@@ -13,8 +14,8 @@ app.get('/about', (req, res) => {
     res.render('about.html');
 });
 
-app.get('/work', (req, res) => {
-    res.render('work.html');
+app.get('/history', (req, res) => {
+    res.render('history.html');
 });
 
 app.get('/gallery', (req, res) => {

@@ -1,0 +1,84 @@
+body {
+  background-color: #7c1ad8;
+}
+
+.head {
+max-height: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(237, 189, 0);
+  margin-bottom: 20px;
+  padding: 10px;
+border-radius: 5px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
+
+.title {
+  color: #7c1ad8;
+  font-family: sans-serif;
+  text-transform: uppercase;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.titleimg {
+  width: 50px;
+}
+
+.navbar {
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 800px;
+  padding: 10px;
+  display: flex;
+  background-color: rgb(237, 189, 0);
+  font-family: sans-serif;
+  font-size: 20px;
+  color: #7c1ad8;
+  font-weight: bold;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbar a {
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 5px;
+}
+
+.lastgame{
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: sans-serif;
+    font-weight: 600;
+
+}
+
+.lastgame h1{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.lastgameimg{
+    margin-left: auto;
+    margin-right: auto;
+    width: 700px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+}
